@@ -1,0 +1,41 @@
+/* Estilos mobile-first */
+main {
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* Estilos para telas maiores */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
